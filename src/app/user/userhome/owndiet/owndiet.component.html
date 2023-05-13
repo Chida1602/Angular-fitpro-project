@@ -3,7 +3,7 @@
       <div class="example-container">
         <h2>Available items</h2>
         <div cdkDropList [cdkDropListData]="products" class="example-list" cdkDropListSortingDisabled (cdkDropListDropped)="drop($event)">
-          <div class="example-box" *ngFor="let item of products" cdkDrag>{{ item.Food }}</div>
+          <div class="example-box" *ngFor="let item of products" cdkDrag>{{ item.Food }}   <img src='http://localhost/{{item.image}}' class= "final"></div>
         </div>
       </div>
       <div class="example-container">
