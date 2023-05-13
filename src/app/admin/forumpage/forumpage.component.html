@@ -1,0 +1,10 @@
+<h1>Discussion Page</h1>
+<div class="fb">
+    <textarea name="fb"  cols="30" rows="10"
+    [(ngModel)]="com" [ngModelOptions]="{standalone: true}"></textarea>
+    <button
+    (click)="onPost()">Post!!</button>
+</div>
+<div class="fc">
+<app-forumpagebox *ngFor="let x of forums" [pd]="x"></app-forumpagebox>
+</div>

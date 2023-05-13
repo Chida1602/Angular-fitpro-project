@@ -1,0 +1,51 @@
+/* Style for the Discussion Page title */
+h1 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for the Feedback container */
+  .fb {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  
+  /* Style for the Feedback textarea */
+  .fb textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    resize: vertical;
+    font-size: 1rem;
+  }
+  
+  /* Style for the Feedback button */
+  .fb button {
+    padding: 0.5rem 1rem;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .fb button:hover {
+    background-color: #005F6B;
+  }
+  
+  /* Style for the Forum container */
+  .fc {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  

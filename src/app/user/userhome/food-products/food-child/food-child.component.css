@@ -1,0 +1,17 @@
+/* .example-card {
+    height:350px;
+    width:300px;
+    margin:20px;
+    float:left;
+  }
+   */
+   .example-card {
+    height: 350px;
+    width: 250px;
+    margin:20px;
+    float:left;
+}
+.image-card{
+    height:100px;
+    width:130px;
+}

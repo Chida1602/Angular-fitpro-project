@@ -1,0 +1,68 @@
+/* Style for the Forum box */
+.app-forumbox {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 1rem;
+  }
+  
+  /* Style for the Forum box title */
+  .app-forumbox mat-card-title {
+    font-size: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  /* Style for the Forum box subtitle */
+  .app-forumbox mat-card-subtitle {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for the Forum box comment */
+  .app-forumbox p {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  /* Style for the Reply container */
+  .rpl {
+    margin-top: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 1rem;
+  }
+  
+  /* Style for the Reply textarea */
+  .rpl textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    margin-bottom: 1rem;
+    resize: vertical;
+    font-size: 1rem;
+  }
+  
+  /* Style for the Reply button */
+  .rpl button {
+    padding: 0.5rem 1rem;
+    background-color: #008CBA;
+    color: #fff;
+    border: none;
+    border-radius: 0.25rem;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .rpl button:hover {
+    background-color: #005F6B;
+  }
+  
+  /* Style for the Reply box */
+  .rplbox {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 1rem;
+    margin-top: 1rem;
+  }
+  

@@ -1,0 +1,47 @@
+<app-menu-outline></app-menu-outline>
+<router-outlet></router-outlet>
+<style>h1 {text-align: center};</style>
+<h1 style="text-align:center; font-weight: bolder; font-size: bolder;">Food Products List</h1>
+<div class="container">
+    <div class="row">
+         <div class="search-food col-md-2">
+            <input type = 'text' name="search" [(ngModel)]="searchText" placeholder="Search by food items">
+        </div> 
+        <div class="col-md-3">
+            <button class="btn btn-success" [routerLink]="'/add-diet-plan'">Add</button>
+        </div> 
+    </div>
+</div> 
+
+<div class="containe">
+    <div class="table-row header-row">
+      <div class="table-cell">FOOD</div>
+      <div class="table-cell">CATEGORY</div>
+      <div class="table-cell">MEASURE</div>
+      <div class="table-cell">GRAMS</div>
+      <div class="table-cell">CALORIES</div>
+      <div class="table-cell">PROTEIN</div>
+      <div class="table-cell">FAT</div>
+      <div class="table-cell">FIBER</div>
+      <div class="table-cell">ACTION</div>
+    </div>
+    <div class="table-body">
+      <div *ngFor="let data of gdata | filter: searchText" class="table-row">
+        <div class="table-cell">{{data.Food}}</div>
+        <div class="table-cell">{{data.Category}}</div>
+        <div class="table-cell">{{data.Measure}}</div>
+        <div class="table-cell">{{data.Grams}}</div>
+        <div class="table-cell">{{data.Calories}}</div>
+        <div class="table-cell">{{data.Protein}}</div>
+        <div class="table-cell">{{data.Fat}}</div>
+        <div class="table-cell">{{data.Fiber}}</div>
+        <div class="table-cell">
+          <button (click)="removeItem(data.id)" class="btn btn-danger"><i class="material-icons">delete</i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+
+

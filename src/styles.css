@@ -1,0 +1,47 @@
+/* You can add global styles to this file, and also import other style files */
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+body {
+    --text-color: hsl(0, 0%, 13%);
+    --bkg-color: #fff;
+    --btn-txt-color: white;
+    --btn-bg-color: rgb(11, 88, 160);
+  }
+  body.dark-theme {
+    --text-color: #eee;
+    --bkg-color: #252222;
+    --btn-txt-color: rgb(46, 43, 43);
+    --btn-bg-color: rgb(20, 211, 195);
+  }
+  
+  body {
+    background: var(--bkg-color);
+  }
+  
+  h1,
+  p {
+    color: var(--text-color);
+  }
+  button {
+    padding: 5px;
+    border: none;
+    border-radius: 2px;
+   
+ 
+    color: var(--btn-txt-color); 
+    background-color: var(--btn-bg-color);
+  }
+  
+  /* :root
+  {
+      --primary-color:#3FC060;
+      --secondary-color:#162328;
+  } */
+  
+  
+  /* body{
+      height: 100vh;
+      font-family: Arial, Helvetica, sans-serif;
+  } */

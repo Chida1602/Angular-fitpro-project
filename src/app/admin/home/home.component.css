@@ -1,0 +1,28 @@
+.container {
+  margin: 20px;
+}
+
+.table-row {
+  display: flex;
+}
+
+.header-row {
+  background-color: #034451;
+  color: #fff;
+}
+
+.table-cell {
+  flex-basis: calc(100%/9);
+  padding: 8px;
+  text-align: center;
+  border: 1px solid #ccc;
+}
+
+.table-body .table-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.table-body .table-row:nth-child(odd) {
+  background-color: #d4edce;
+
+}
+

@@ -1,0 +1,44 @@
+.menu-bar {
+    background-color: #2196f3; /* Set the background color */
+    height: 60px; /* Set the height of the menu bar */
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Spread the links evenly */
+    align-items: center; /* Center the links vertically */
+  }
+  
+  .menu-bar ul {
+    list-style: none; /* Remove bullet points from the list */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menu-bar li {
+    margin-right: 20px; /* Add spacing between the links */
+  }
+  
+  .menu-bar a {
+    color: #fff; /* Set the text color to white */
+    text-decoration: none; /* Remove underline from links */
+    padding: 10px; /* Add padding to links */
+    border-radius: 5px; /* Add rounded corners to links */
+  }
+  
+  .menu-bar a:hover {
+    background-color: #1976d2; /* Change the background color on hover */
+  }
+  
+  .menu-bar button {
+    color: #fff;
+    background-color: #2196f3;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .menu-bar button:hover {
+    background-color: #1976d2;
+  }

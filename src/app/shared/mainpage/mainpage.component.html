@@ -1,0 +1,20 @@
+<style>h1 {text-align: center};</style>
+<h1 style="text-align:center; font-weight: bolder; font-size: bolder;">FitPro Inc</h1>
+<mat-toolbar class="menu-bar">
+    <ul>
+        <li><a class="nav-link"  (click)="navigate('')">{{"mainpage.Homepage"| translate }}</a></li>
+        <li><a class="nav-link" (click)="navigate('food')">{{"mainpage.Food Products"| translate }}</a></li>
+        <li><a class="nav-link" (click)="navigate('diet')">{{"mainpage.Dietary Plans"| translate }}</a></li>
+        <li><a class="nav-link" (click)="navigate('own')">{{"mainpage.Create plan"| translate }}</a></li>
+        <li><a class="nav-link" (click)="navigate('forum')">{{"mainpage.Forum"| translate }}</a></li>
+        <li><a class="nav-link" (click)="logout()">Logout</a></li>
+        <li><a class="nav-link" (click)="navigate('help')">Help</a></li>
+        <li><button (click)="toggleDarkTheme()">🎨</button></li>
+        <span [style.marginLeft]="'100px'" [style.color]="'white'">
+            <select [(ngModel)]="lang" (change)="changeLang()">
+               <option *ngFor="let x of languages" value={{x.value}}>
+                 {{x.name}}</option>
+            </select>
+         </span>
+    </ul>
+</mat-toolbar>

@@ -1,0 +1,13 @@
+
+<div class="hd">
+    <div class="tp">
+    <div class="slt">
+    <p style="font-weight: bolder;">Select Catogory:</p>
+    <select [(ngModel)]="selected" class="bx">
+    <option *ngFor="let x of types">{{x}}</option>
+    </select>
+    </div>
+    
+<div class="container">
+    <app-diettype *ngFor="let x of names | dietfilter : selected" [products]="x"></app-diettype>
+</div>

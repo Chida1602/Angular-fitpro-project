@@ -1,0 +1,26 @@
+<div class="frm">
+    <div class="ct">
+        <h1 style="background-color: rgb(187, 200, 198);">Post Your Complaint / Feedback</h1>
+        <form class="example-form" (ngSubmit)="submit()">
+            <mat-form-field appearance="fill">
+                <mat-label>Name</mat-label>
+                <input matInput [(ngModel)]="fname" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+            <br>
+            <mat-form-field appearance="fill">
+                <mat-label>Email</mat-label>
+                <input matInput [(ngModel)]="email" [ngModelOptions]="{standalone: true}">
+            </mat-form-field>
+            <br>
+            <mat-form-field appearance="fill">
+                <mat-label>Message</mat-label>
+                <textarea matInput [(ngModel)]="message" [ngModelOptions]="{standalone: true}"></textarea>
+            </mat-form-field>
+            <br>
+            <mat-card-actions>
+                <button type="submit" class="b">Submit Enquiry</button>
+            </mat-card-actions>
+        </form>        
+    </div>
+</div>
+

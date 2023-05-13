@@ -1,0 +1,12 @@
+<style>h1 {text-align: center};</style>
+<h1 style="text-align:center; font-weight: bolder; font-size: bolder;">FitPro Inc</h1>
+<mat-toolbar class="menu-bar">
+    <ul>
+        <li><a></a></li>
+        <li><a class="nav-link"  (click)="navigate('')">Homepage</a></li>
+        <li><a class="nav-link" (click)="navigate('../forum')">Forum</a></li>
+        <li><a class="nav-link" (click)="navigate('../complaint')">Complaints</a></li>
+        <li><button (click)="toggleDarkTheme()">L/D theme</button></li>
+        <li><a class="nav-link" (click)="logout()">Logout</a></li>
+    </ul>
+</mat-toolbar>

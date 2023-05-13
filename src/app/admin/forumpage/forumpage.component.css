@@ -1,0 +1,33 @@
+h1 {
+  font-size: 2em;
+  margin-bottom: 1em;
+}
+
+.fb {
+  margin: 1em 0;
+}
+
+.fb textarea {
+  width: 100%;
+  height: 8em;
+  padding: 0.5em;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1em;
+  line-height: 1.5;
+}
+
+.fb button {
+  padding: 0.5em 1em;
+  border: none;
+  background-color: #007bff;
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1em;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.fb button:hover {
+  background-color: #0062cc;
+}

@@ -1,0 +1,130 @@
+/* .menu-bar{
+    background-color: rgb(7, 37, 67) !important;
+    color: whitesmoke ! important;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+ul{
+    margin-left: 50px;
+}
+li {
+    float: left;
+    list-style-type: none;
+    margin-left: 10px;
+    margin-right: 20px;
+}
+
+a {
+    color: whitesmoke;
+    size: 20px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover{
+    color: lightblue
+}
+
+a:active {
+    color: rgb(200, 231, 241);
+} */
+/* .menu-bar {
+    background-color: #8a8585;
+    color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  .menu-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+  }
+  
+  .menu-bar li {
+    margin-right: 20px;
+  }
+  
+  .menu-bar a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .menu-bar a:hover {
+    color: #FFFFFF;
+    background-color: #333333;
+  }
+  
+  .menu-bar button {
+    border: none;
+    background-color: transparent;
+    color: #333333;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .menu-bar button:hover {
+    color: #FFFFFF;
+    background-color: #333333;
+  } */
+  .menu-bar {
+  background-color: #2196f3; /* Set the background color */
+  height: 60px; /* Set the height of the menu bar */
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Spread the links evenly */
+  align-items: center; /* Center the links vertically */
+}
+
+.menu-bar ul {
+  list-style: none; /* Remove bullet points from the list */
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-bar li {
+  margin-right: 20px; /* Add spacing between the links */
+}
+
+.menu-bar a {
+  color: #fff; /* Set the text color to white */
+  text-decoration: none; /* Remove underline from links */
+  padding: 10px; /* Add padding to links */
+  border-radius: 5px; /* Add rounded corners to links */
+}
+
+.menu-bar a:hover {
+  background-color: #1976d2; /* Change the background color on hover */
+}
+
+.menu-bar button {
+  color: #fff;
+  background-color: #2196f3;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.menu-bar button:hover {
+  background-color: #1976d2;
+}
+
+  

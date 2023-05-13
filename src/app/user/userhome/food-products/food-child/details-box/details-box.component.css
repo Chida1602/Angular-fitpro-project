@@ -1,0 +1,48 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-top: 50px;
+  width: 60%;
+  height: 70%;
+  border: .5px solid black;
+  background: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+
+img {
+  /* border-radius: 50%; */
+  margin-right: 40px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 120%;
+  border: .5px solid black;
+}
+
+td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.para {
+  margin-top: 50px;
+}
+

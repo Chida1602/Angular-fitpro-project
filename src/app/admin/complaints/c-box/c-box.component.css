@@ -1,0 +1,32 @@
+.disply {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    border: .5px solid black;
+  }
+  
+  .individual {
+    border-collapse: collapse;
+    width: 50%;
+  }
+  
+  .individual td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .individual td:first-child {
+    font-weight: bold;
+  }
+  
+  .individual a {
+    color: #0066cc;
+    text-decoration: none;
+  }
+  
+  .individual a:hover {
+    text-decoration: underline;
+  }
+  

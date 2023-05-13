@@ -1,0 +1,11 @@
+<mat-card class="example-card">
+<mat-card-header>
+<div mat-card-avatar class="example-header-image"></div>
+<mat-card-title>{{pd.Category}}</mat-card-title>
+<mat-card-subtitle>{{pd.Food}}</mat-card-subtitle> 
+</mat-card-header>
+  <img mat-card-image src="http://localhost/{{ pd.image }}" alt="Category">
+<mat-card-actions>
+  <a routerLink="/detailsbox/{{ pd.id }}">Details</a>
+</mat-card-actions>
+</mat-card>
